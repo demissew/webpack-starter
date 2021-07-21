@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
+import './style.scss';
 
 const Button = () => {
   const [count, setCount] = React.useState(0);
