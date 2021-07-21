@@ -1,0 +1,20 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "Starting project for building a web frontend that uses react as drop-in library ()\u001b[DNot SpA)\u001b[D\u001b[P\u001b[C\u001b[F\u001b[B",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "preprocessing"
+  ],
+  "author": "Demissew Melese",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
