@@ -1,10 +1,14 @@
 {
   "name": "webpack-starter",
   "version": "1.0.0",
-  "description": "Starting project for building a web frontend that uses react as drop-in library ()\u001b[DNot SpA)\u001b[D\u001b[P\u001b[C\u001b[F\u001b[B",
+  "description": "Starting project for building a web frontend that uses react as drop-in library",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demissew/webpack-starter.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack -w"
   },
   "keywords": [
     "webpack",
@@ -14,7 +18,21 @@
   "author": "Demissew Melese",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
