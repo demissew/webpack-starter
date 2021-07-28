@@ -1,12 +1,12 @@
 import React from 'react';
 import {render} from 'react-dom';
-import './style.css';
+import '../style.css';
 
-const About = () => {
+const Index = () => {
 
     return (
         <h1>About</h1>
     );
 };
 
-render(<About/>, document.getElementById('target'));
+render(<Index/>, document.getElementById('target'));

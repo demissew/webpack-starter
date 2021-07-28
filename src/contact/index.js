@@ -1,12 +1,12 @@
 import React from 'react';
 import {render} from 'react-dom';
-import './style.css';
+import '../style.css';
 
-const Contact = () => {
+const Index = () => {
 
     return (
         <h1>Contact</h1>
     );
 };
 
-render(<Contact/>, document.getElementById('target'));
+render(<Index/>, document.getElementById('target'));
