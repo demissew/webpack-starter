@@ -8,7 +8,9 @@
     "url": "https://github.com/demissew/webpack-starter.git"
   },
   "scripts": {
-    "build": "webpack -w"
+    "dev": "webpack --watch --color --mode=development",
+    "prod": "webpack --watch --color  --mode=production",
+    "build": "webpack --color --mode=production"
   },
   "keywords": [
     "webpack",
